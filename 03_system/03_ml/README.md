@@ -125,7 +125,7 @@
 
 - [ML Systems Design Interview Guide](http://patrickhalina.com/posts/ml-systems-design-interview-guide/)
 - [Meet Michelangelo: Uber’s Machine Learning Platform](https://www.uber.com/en-SG/blog/michelangelo-machine-learning-platform/)
-- [Machine Learning Engineering by Andriy Burkov](https://www.amazon.com/Machine-Learning-Engineering-Andriy-Burkov/dp/1999579577)
+- [Machine Learning Engineering by Andriy Burkov](https://amzn.to/3PnxCL9)
 - [https://github.com/chiphuyen/machine-learning-systems-design](https://github.com/chiphuyen/machine-learning-systems-design)
 
 **扩展**
@@ -137,9 +137,8 @@
 - [https://github.com/shibuiwilliam/ml-system-in-actions](https://github.com/shibuiwilliam/ml-system-in-actions)
 - [https://github.com/mercari/ml-system-design-pattern](https://github.com/mercari/ml-system-design-pattern)
 - [https://github.com/ibragim-bad/machine-learning-design-primer](https://github.com/ibragim-bad/machine-learning-design-primer)
-- [Grokking the Machine Learning Interview](https://www.educative.io/courses/grokking-the-machine-learning-interview)
+- [Grokking the Machine Learning Interview](https://www.educative.io/courses/grokking-the-machine-learning-interview?aff=BlEk)
 - [https://about.instagram.com/blog/engineering/designing-a-constrained-exploration-system](https://about.instagram.com/blog/engineering/designing-a-constrained-exploration-system)
-- [https://www.educative.io/courses/grokking-the-machine-learning-interview](https://www.educative.io/courses/grokking-the-machine-learning-interview)
 - [https://www.youtube.com/c/BitTiger](https://www.youtube.com/c/BitTiger)
 - [ML system 入坑指南 - Fazzie的文章 - 知乎](https://zhuanlan.zhihu.com/p/608318764)
 - [模型生产环境中的反馈与数据回流 - 想飞的石头的文章 - 知乎](https://zhuanlan.zhihu.com/p/493080131)

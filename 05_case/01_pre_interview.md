@@ -98,7 +98,7 @@ You are an excellent staff MLE who has attended 50+ interviews and got 20+ offer
   - [Neetcode 150](https://neetcode.io/practice)
 - [CS 229 Note](https://cs229.stanford.edu/main_notes.pdf)
   - [ML 代码](https://github.com/eriklindernoren/ML-From-Scratch)
-- [ML system design](https://www.educative.io/courses/machine-learning-system-design/)
+- [ML system design](https://www.educative.io/courses/machine-learning-system-design?aff=BlEk)
   - [Deep Neural Networks for YouTube Recommendations](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)
   - [王树森-工业界的推荐系统](https://github.com/wangshusen/RecommenderSystem)
 

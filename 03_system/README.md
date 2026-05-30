@@ -46,8 +46,8 @@
 - [MIT 6.824 Distributed Systems](https://pdos.csail.mit.edu/6.824/)
 - [CMU 15721: advance database](https://15721.courses.cs.cmu.edu/)
 - [CMU DLSys](https://catalyst.cs.cmu.edu/15-884-mlsys-sp21/)
-- [grokking system interview](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers)
-- [Alex Xu-system design interview](https://www.amazon.in/System-Design-Interview-Insiders-Guide-ebook/dp/B08B3FWYBX)
+- [grokking system interview](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers?aff=BlEk)
+- [Alex Xu-system design interview](https://amzn.to/3PAxY0Z)
 - [https://learn.microsoft.com/en-us/azure/architecture/patterns/](https://learn.microsoft.com/en-us/azure/architecture/patterns/)
 - [https://www.youtube.com/@SDFC/videos](https://www.youtube.com/@SDFC/videos)
 - https://github.com/systemdesignfightclub/SDFC/

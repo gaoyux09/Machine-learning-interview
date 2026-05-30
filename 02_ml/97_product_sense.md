@@ -112,7 +112,7 @@ When would you decide the time to ingest into newsfeed?
 
 ## 参考
 
-- Ace the data science interview
+- [Ace the data science interview](https://amzn.to/4wQlins)
 - [Meta Senior DS, Product Analytics 面试准备总结](https://www.1point3acres.com/bbs/thread-1012204-1-1.html)
 - [new grads湾区DA/DS找工作超细致回顾+面经+资料总结](https://www.1point3acres.com/bbs/thread-469408-1-1.html)
 - [数据科学家面试 Data Scientist Interview Product sense/metrics 套路总结](https://www.1point3acres.com/bbs/thread-679303-1-1.html)

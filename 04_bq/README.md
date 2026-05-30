@@ -75,7 +75,7 @@
 - [https://www.youtube.com/@SelfMadeMillennial](https://www.youtube.com/@SelfMadeMillennial)
 - [Career School @youtube](https://www.youtube.com/@CareerSchool)
 - [Don't Get Down-Leveled or How to Tell a Good Story (From a Principal at Amazon)](https://www.youtube.com/watch?v=hU6BVxtGd5g)
-- [grokking-the-behavioral-interview](https://www.educative.io/courses/grokking-the-behavioral-interview)
+- [grokking-the-behavioral-interview](https://www.educative.io/courses/grokking-the-behavioral-interview?aff=BlEk)
 - [Amazon Leadership Principles: Questions and Interview Tips](https://www.levels.fyi/blog/amazon-leadership-principles.html)
 - Engineers survival guide
 - OReilly.The.Staff.Engineer's.Path

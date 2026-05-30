@@ -162,9 +162,9 @@ TCP
 
 **精读**
 
-- [grokking-the-system-design-interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+- [grokking-the-system-design-interview](https://www.educative.io/courses/grokking-the-machine-learning-interview?aff=BlEk)
 - [system design primer](https://github.com/donnemartin/system-design-primer)
-- [DDIA-Designing Data-Intensive Application](https://github.com/Vonng/ddia)
+- [DDIA-Designing Data-Intensive Application](https://amzn.to/4tVml2I)
 - [youtube-System Design Interview](https://www.youtube.com/@SystemDesignInterview)
 - [youtube-System Design Guru](https://www.youtube.com/@newgpu-sys-design)
 - [一篇文章解决所有system design面试](https://www.1point3acres.com/bbs/thread-559285-1-1.html)

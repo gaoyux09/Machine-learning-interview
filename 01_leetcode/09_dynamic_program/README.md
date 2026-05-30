@@ -67,6 +67,6 @@
 
 ## 参考
 
-- [educative-io-contents](https://github.com/asutosh97/educative-io-contents/blob/master/Grokking%20Dynamic%20Programming%20Patterns%20for%20Coding%20Interviews.md)
+- [educative-io-contents](https://www.educative.io/courses/grokking-dynamic-programming-interview?aff=BlEk)
 - [Grokking-the-Coding-Interview-Patterns](https://github.com/cl2333/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
 - [动态规划之背包问题系列](https://tangshusen.me/2019/11/24/knapsack-problem/)

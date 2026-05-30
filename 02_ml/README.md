@@ -165,10 +165,11 @@
 - 视觉:
   - 手写iou/nms
 
+
 ## 参考
 
 - [https://github.com/2019ChenGong/Machine-Learning-Notes](https://github.com/2019ChenGong/Machine-Learning-Notes)
-- [https://github.com/ctgk/PRML](https://github.com/ctgk/PRML)
+- [Pattern Recognition and Machine Learning: https://github.com/ctgk/PRML](https://amzn.to/3PnxYBt)
 - [https://github.com/nxpeng9235/MachineLearningFAQ/blob/main/bagu.md](https://github.com/nxpeng9235/MachineLearningFAQ/blob/main/bagu.md)
 - [https://docs.qq.com/doc/DR0ZBbmNKc0l3RGR2](https://docs.qq.com/doc/DR0ZBbmNKc0l3RGR2)
 - [机器学习八股文的答案](https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=998257&page=1&extra=)
