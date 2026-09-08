@@ -142,6 +142,20 @@ $$
 - 正负样本不平衡
 
   - [欠采样（undersampling）和过采样（oversampling）会对模型带来怎样的影响？](https://www.zhihu.com/question/269698662/answer/350806067)
+  - Random oversampling = duplicate existing minority observations. 
+SMOTE = generate synthetic minority observations based on nearby minority examples.
+
+$$
+x_{new}=x_i+\lambda(x_j-x_i), 0 \le \lambda\le 1
+$$
+
+Or, use class weight: LogisticRegression(class_weight="balanced")
+
+$$
+Loss=\sum_i w_i L(y_i,\hat y_i)
+$$ 
+
+and the weight of minority goes up. 而如果问题本身类似 fraud/anomaly detection：有时候甚至可以不把它当传统 classification，而做 Anomaly Detection,Isolation Forest、One-Class SVM 
 
 - how do you deal with a categorical variable with high cardinality
 
