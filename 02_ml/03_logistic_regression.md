@@ -1,4 +1,4 @@
-# 逻辑回归
+l# 逻辑回归
 
 ## 1. 最小经验损失函数
 
@@ -176,18 +176,76 @@ and the weight of minority goes up. 而如果问题本身类似 fraud/anomaly de
 - Logistic regression和SVM的区别
 
   - 任务不同: 分类，SVM可以解决回归问题
-  - loss不同: BCE与hinge loss
-  - 输出不同: LR概率输出，SVM score
+    Logistic Regression solves
+    
+$$
+    X\rightarrow P(Y=1|X)\rightarrow Class 
+$$
+
+  - loss不同: BCE
+
+  $$
+L=-[y\log(p)+(1-y)\log(1-p)] \text{ ,and} L=\max(0,1-yf(x)) \text{, hinge loss}
+  $$
+  
+  - 与hinge loss. 也就是说，一旦 observation 被正确分类而且已经在 margin 外面，SVM 就不再关心它离 boundary 到底有多远。
+  - 输出不同: LR概率输出，SVM score: 表示 observation 在 decision boundary 的某一侧以及相对位置，但不是probablity。
+  - Both can be used for classification, but they optimize different objectives. Logistic regression minimizes log loss and directly models class probabilities, while SVM typically uses hinge loss and tries to maximize the margin between classes. Logistic regression naturally gives probability outputs, whereas SVM gives a decision score unless we perform probability calibration. Also, kernel SVMs can efficiently model nonlinear decision boundaries, while standard logistic regression is linear in its input features.
 
 - LR中连续特征为什么要做离散化
 
   - 数据角度：离散化的特征对异常数据有很强的鲁棒性；离散化特征利于进行特征交叉。
-  - 模型角度：当数据增加/减少时，利于模型快速迭代；离散化相当于为模型引入非线性表达；离散化特征简化了模型输入，降低过拟合风险；LR中离散化特征很容易根据权重找出bad case。
+  - 模型角度：当数据增加/减少时，利于模型快速迭代；离散化相当于为模型引入非线性表达；
+    例如原本：Age=20,30,40,50,60
+
+直接放进 LR：
+
+$$
+\text{logit}(p)=\beta_0+\beta_1Age
+$$
+
+Age 对 log-odds 的影响只能是一条直线。 但是如果：
+
+$$
+Age\rightarrow
+\begin{cases}
+Age<25\\
+25\leq Age<40\\
+40\leq Age<60\\
+Age\geq60
+\end{cases}
+$$
+
+然后 one-hot：
+
+$$
+X_1=I(Age<25)
+
+X_2=I(25\leq Age<40)
+
+X_3=I(40\leq Age<60)
+$$
+
+那么 LR 变成：
+
+$$
+logit(p)=
+\beta_0+\beta_1X_1+\beta_2X_2+\beta_3X_3.
+$$
+
+每一个区间可以有自己的 effect。
+  - 离散化特征简化了模型输入，降低过拟合风险；LR中离散化特征很容易根据权重找出bad case。
   - 计算角度：稀疏向量内积计算速度快。（在计算稀疏矩阵内积时，可以根据当前值是否为0来直接输出0值，这相对于乘法计算是快很多的。）
 
 - 什么是最大似然估计，其假设是什么？
-
+找到一组参数，使得我们已经观察到的这些数据出现的可能性最大。Distribution / model specification,  Observations 通常假设独立,参数是固定但未知的
 - 一个分类器，有的 token 在 vocabulary 里面没出现导致概率是0怎么办
+  Laplace Smoothing.
+
+  $$
+P(w|c)=\frac{N_{w,c}}{N_c} \Leftrightarrow 
+P(w|c)=\frac{N_{w,c}+\alpha}{N_c+\alpha |V|}}
+  $$
 
   - softmax，概率取对数再求指数
 
