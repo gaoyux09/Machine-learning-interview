@@ -127,8 +127,10 @@ $$
 
   - interpretable and explainable method
   - less prone to overfitting when using regulation
-  - applicable for multi-class predictions
+  - applicable for multi-class predictions:
+    Yes. Although standard logistic regression is binary, it can be extended to multiclass classification using either One-vs-Rest, where we train one binary classifier per class, or multinomial logistic regression, which uses the softmax function to model the probabilities of all classes jointly.
   - Robustness to Feature Noise
+
 
 - cons:
 
