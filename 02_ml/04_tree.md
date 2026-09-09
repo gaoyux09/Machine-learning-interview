@@ -13,12 +13,33 @@
 ![](../.github/assets/02ml-tree.png)
 
 - 熵 Entropy
-  - 熵、联合熵、条件熵、交叉熵、[KL散度（相对熵）](https://dibyaghosh.com/blog/probability/kldivergence.html)
+  - 熵、
+    
+    $$
+H(X)=-\sum_x P(x)\log P(x)
+$$
+
+
+    联合熵、条件熵、交叉熵(Cross Entropy 开始比较 true distribution P and model predicted distribution Q->真实数据来自 P，但我用 Q 来描述/编码这些数据，需要付出多大的代价？)
+
+    $$
+H(P,Q)=
+-\sum_x P(x)\log Q(x)
+$$
+
+    [KL散度（相对熵）](https://dibyaghosh.com/blog/probability/kldivergence.html) Q 相对于真实分布 P 差了多少。差距越大数值越大
+    $$
+D_{KL}(P||Q)=\sum_xP(x)\log\frac{P(x)}{Q(x)}}
+$$
+
   - KL(p|q) = cross entropy(p, q) - H(p)
 
 $$
-H(X) = -\sum_{i=1}^{n} p(x_i) \log p(x_i)
+
 $$
+H(P,Q)=H(P)+D_{KL}(P||Q) \Leftrightarrow \text{Cross Entropy} = \text{True Entropy} + \text{KL Divergence}
+$$
+
 
 - 信息增益 Information Gain `Gain(D|A) = H(D) - H(D|A)`
 
@@ -26,8 +47,8 @@ $$
 
 - squared loss
 
-## 2. adaboost
-
+## 2. adaboost (Adaptive Boosting，自适应提升)
+AdaBoost 顺序训练多个 weak learners，每一轮更加关注上一轮分类错误的样本，最后把所有 weak learners 加权组合。
 - 损失函数exp
 - 对分类正确的样本降低权重，对错误分类的样本升高或者保持全中不变。在模型融合过程中，根据错误率对基分类器器进行加权融合，错误率低的分类器拥有更大的“话语权”
 
